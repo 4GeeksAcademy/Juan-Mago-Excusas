@@ -1,1 +1,57 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body{
+
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#excuse{
+
+    font-size: 40px;
+}
+
+button{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    border: 0;
+    
+}
+
+button:hover{
+
+    background-color: white;
+    color: red;
+}
+
+p{
+
+    background-color: white;
+    border-radius: 15px;
+    border: 1px dashed gray;
+
+}
+
+p:hover{
+
+    background-color: white;
+    color: red;
+    box-shadow: 2px 2px 2px 2px;
+
+}
+
+img{
+
+    width: 400px;
+    height: 400px;
+    box-shadow: 4px 4px 4px 4px;
+}
